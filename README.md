@@ -11,12 +11,11 @@ A modular Python application that automates the processing of employee timesheet
 ### Supported Timesheet Formats
 
 - Oracle HCM
-- PeopleSoft HRCMS
-- MBO Partners
-- Unanet Time-List
+- PeopleSoft 
+- Time-List
 - Unanet EaZyTyme
 - Calendar grid view
-- Techno-Comp Excel (.xlsx)
+- Excel (.xlsx)
 - ZIP archives containing any of the above
 
 ## Prerequisites
