@@ -1,0 +1,26 @@
+# TimesheetsProcessor Configuration
+# -----------------------------------
+
+# Date range for email search (MM-DD-YYYY format)
+START_DATE: "01-01-2025"                        # Required
+END_DATE: ""                                     # Optional — defaults to today
+
+# Path to the parent directory where employee folders are created
+# Leave empty to use the current working directory
+EMPLOYEES_PARENT_DIR_PATH: "./Employees/"
+
+# Path to the employees list file (Markdown table)
+# Leave empty to use config/EmployeesList.md
+EMPLOYEES_LIST_FILE: ""
+
+# Number of emails to retrieve per employee per run
+EMAIL_BATCH_SIZE: 5
+
+# Subfolder name inside each employee folder for downloaded attachments
+PROCESSING_FOLDER_NAME: "downloaded"
+
+# Gmail OAuth2 settings
+# Place your Google OAuth credentials.json in config/credentials.json
+GMAIL_CREDENTIALS_FILE: "config/credentials.json"
+GMAIL_TOKEN_FILE: "token.pickle"
+GMAIL_USER_ID: "me"
