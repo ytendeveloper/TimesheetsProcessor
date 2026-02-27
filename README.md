@@ -13,7 +13,6 @@ A modular Python application that automates the processing of employee timesheet
 - Oracle HCM
 - PeopleSoft 
 - Time-List
-- Unanet EaZyTyme
 - Calendar grid view
 - Excel (.xlsx)
 - ZIP archives containing any of the above
